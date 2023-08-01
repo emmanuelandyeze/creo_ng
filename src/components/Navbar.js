@@ -69,7 +69,7 @@ const Navbar = () => {
 					<TwitterIcon />
 				</motion.a>
 				<motion.a
-					href={'/'}
+					href={'https://github.com/emmanuelandyeze'}
 					target="_blank"
 					whileHover={{
 						y: -2,
