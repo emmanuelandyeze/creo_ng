@@ -43,12 +43,17 @@ export default function Home() {
 							</p>
 							<div className="flex items-center self-start mt-2">
 								<Link
-									href={'/quote'}
+									href={'/hire'}
 									className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
 								>
 									Hire Us
 								</Link>
-								<Link href={'/projects'} className='ml-4 text-lg font-medium capitalize text-dark underline'>View Portfolio</Link>
+								<Link
+									href={'/projects'}
+									className="ml-4 text-lg font-medium capitalize text-dark underline"
+								>
+									View Portfolio
+								</Link>
 							</div>
 						</div>
 					</div>
