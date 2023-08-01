@@ -55,11 +55,11 @@ const about = () => {
 								</p>
 								<br />
 								<p>
-									Discover remarkable projects we've brought
-									to life for businesses like yours. From
-									sleek e-commerce platforms to data-driven
-									applications, our portfolio reflects
-									top-tier software solutions.
+									Discover remarkable projects we have
+									brought to life for businesses like yours.
+									From sleek e-commerce platforms to
+									data-driven applications, our portfolio
+									reflects top-tier software solutions.
 								</p>{' '}
 								<br />
 								<p>
