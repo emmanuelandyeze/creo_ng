@@ -3,14 +3,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-const MotionLink = motion(Link)
+const MotionLink = motion(Link);
 
 const Logo = () => {
 	return (
 		<div className="flex items-center justify-center mt-2">
 			<MotionLink
 				href={'/'}
-				className="w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-lg font-bold"
+				className="w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-lg font-bold border border-solid border-transparent dark:border-light"
 				whileHover={{
 					backgroundColor: [
 						'#121212',
@@ -19,11 +19,16 @@ const Logo = () => {
 						'rgba(252,176,69,1)',
 						'rgba(131,58,180,1)',
 						'#121212',
-                    ],
-                    transition: {duration: 1, repeat: Infinity}
+					],
+					transition: { duration: 1, repeat: Infinity },
 				}}
 			>
-                <Image src={'/images/creo_white.png'} alt='' width={40} height={40} />
+				<Image
+					src={'/images/creo_white.png'}
+					alt=""
+					width={40}
+					height={40}
+				/>
 			</MotionLink>
 		</div>
 	);

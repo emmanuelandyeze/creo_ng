@@ -24,17 +24,17 @@ const about = () => {
 						className="mb-16 !text-6xl"
 					/>
 					<div className="grid w-full grid-cols-6 gap-16">
-						<div className="col-span-3 relative  rounded-2xl border-2 border-solid border-dark bg-light p-8">
-							<div className="absolute top-0 -right-3 -z-10 2-[102%] h-[103%] rounded-[2rem] bg-dark" />
+						<div className="col-span-3 relative  rounded-2xl border-2 border-solid border-dark dark:border-light bg-light dark:bg-dark p-8">
+							<div className="absolute top-0 -right-3 -z-10 2-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
 							<Image
 								src={profilePc}
 								alt=""
 								className="w-full h-auto rounded-2xl"
 							/>
 						</div>
-						<div className="col-span-3 flex flex-col items-start justify-start">
+						<div className="col-span-3 flex flex-col items-start justify-start dark:text-light">
 							<div>
-								<h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
+								<h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light">
 									About Us
 								</h2>
 								<p>
@@ -66,12 +66,12 @@ const about = () => {
 									Let Creo be your trusted partner on this
 									transformative journey.
 								</p>
-								<div className="flex flex-row justify-between mt-10">
+								<div className="flex flex-row justify-between mt-10 dark:text-light">
 									<div className="flex flex-col items-center justify-center">
 										<span className="inline-block text-7xl font-bold">
 											10+
 										</span>
-										<h2 className="text-xl font-medium capitalize text-dark/75">
+										<h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
 											projects completed
 										</h2>
 									</div>
@@ -79,7 +79,7 @@ const about = () => {
 										<span className="inline-block text-7xl font-bold">
 											10+
 										</span>
-										<h2 className="text-xl font-medium capitalize text-dark/75">
+										<h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
 											satisfied clients
 										</h2>
 									</div>
@@ -87,7 +87,7 @@ const about = () => {
 										<span className="inline-block text-7xl font-bold">
 											4+
 										</span>
-										<h2 className="text-xl font-medium capitalize text-dark/75">
+										<h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
 											years of experience
 										</h2>
 									</div>
@@ -95,13 +95,13 @@ const about = () => {
 								<div className="flex items-center self-start mt-10">
 									<Link
 										href={'/hire'}
-										className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+										className="flex items-center bg-dark text-light dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
 									>
 										Hire Us
 									</Link>
 									<Link
 										href={'/projects'}
-										className="ml-4 text-lg font-medium capitalize text-dark underline"
+										className="ml-4 text-lg font-medium capitalize dark:text-light/75 text-dark underline underline-offset-2"
 									>
 										View Portfolio
 									</Link>

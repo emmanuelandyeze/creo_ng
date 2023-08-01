@@ -18,7 +18,7 @@ export default function Home() {
 					content="Turn Your Ideas Into Reality With Expert Code And Design."
 				/>
 			</Head>
-			<main className="flex items-center text-dark w-full min-h-screen">
+			<main className="flex items-center text-dark w-full min-h-screen dark:text-light">
 				<Layout className="pt-0">
 					<div className="flex items-center justify-between w-full">
 						<div className="w-1/2">
@@ -44,13 +44,13 @@ export default function Home() {
 							<div className="flex items-center self-start mt-2">
 								<Link
 									href={'/hire'}
-									className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+									className="flex items-center bg-dark text-light dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
 								>
 									Hire Us
 								</Link>
 								<Link
 									href={'/projects'}
-									className="ml-4 text-lg font-medium capitalize text-dark underline"
+									className="ml-4 text-lg font-medium capitalize text-dark underline underline-offset-2 dark:text-light"
 								>
 									View Portfolio
 								</Link>
