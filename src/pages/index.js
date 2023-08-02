@@ -55,7 +55,7 @@ export default function Home() {
 									href={'/projects'}
 									className="flex items-center bg-light text-dark md:p-2 md:px-4 md:text-base dark:bg-dark dark:text-light hover:dark:bg-light hover:dark:text-dark hover:dark:border-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-dark hover:text-light border-2 border-solid border-transparent hover:border-light"
 								>
-									View Portfolio
+									View Projects
 								</Link>
 							</div>
 						</div>
@@ -152,7 +152,7 @@ export default function Home() {
 										href={'/projects'}
 										className="flex items-center bg-light text-dark md:p-2 md:px-4 md:text-base dark:bg-dark dark:text-light hover:dark:bg-light hover:dark:text-dark hover:dark:border-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-dark hover:text-light border-2 border-solid border-transparent hover:border-light"
 									>
-										View Portfolio
+										View Projects
 									</Link>
 								</div>
 							</div>

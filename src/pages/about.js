@@ -94,7 +94,7 @@ const about = () => {
 										</h2>
 									</div>
 								</div>
-								<div className="flex sm:mx-auto items-center self-center mt-2 lg:self-center sm:self-center">
+								<div className="flex sm:mx-auto items-center pt-8 self-center mt-2 lg:self-center sm:self-center">
 									<Link
 										href={'/hire'}
 										className="flex items-center bg-dark text-light md:p-2 md:px-4 md:text-base dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark mr-2"
@@ -105,7 +105,7 @@ const about = () => {
 										href={'/projects'}
 										className="flex items-center bg-light text-dark md:p-2 md:px-4 md:text-base dark:bg-dark dark:text-light hover:dark:bg-light hover:dark:text-dark hover:dark:border-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-dark hover:text-light border-2 border-solid border-transparent hover:border-light"
 									>
-										View Portfolio
+										View Projects
 									</Link>
 								</div>
 							</div>

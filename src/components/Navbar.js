@@ -273,7 +273,7 @@ const Navbar = () => {
 			</div>
 
 			<div className="absolute left-[50%] sm:left-[45%] top-2 translate-x-[-50%]">
-				<Logo />
+				<Logo isOpen={isOpen} setIsOpen={setIsOpen} />
 			</div>
 		</header>
 	);

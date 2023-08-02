@@ -5,9 +5,17 @@ import Image from 'next/image';
 
 const MotionLink = motion(Link);
 
-const Logo = () => {
+const Logo = ({ isOpen, setIsOpen }) => {
+	const handleClick = () => {
+		if (isOpen) {
+			setIsOpen(false);
+		} else return;
+	};
 	return (
-		<div className="flex items-center justify-center mt-2">
+		<div
+			className="flex items-center justify-center mt-2"
+			onClick={handleClick}
+		>
 			<MotionLink
 				href={'/'}
 				className="w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-lg font-bold border border-solid border-transparent dark:border-light"
