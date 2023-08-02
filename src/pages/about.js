@@ -21,10 +21,10 @@ const about = () => {
 						text={
 							'Your Vision. Our Expertise. Success Unleashed.'
 						}
-						className="mb-16 !text-6xl"
+						className="mb-16 !text-6xl lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8"
 					/>
-					<div className="grid w-full grid-cols-6 gap-16">
-						<div className="col-span-3 relative  rounded-2xl border-2 border-solid border-dark dark:border-light bg-light dark:bg-dark p-8">
+					<div className="grid w-full grid-cols-6 gap-16 lg:flex lg:flex-col">
+						<div className="col-span-3 relative sm:hidden md:hidden   rounded-2xl border-2 border-solid border-dark dark:border-light bg-light dark:bg-dark p-8">
 							<div className="absolute top-0 -right-3 -z-10 2-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
 							<Image
 								src={profilePc}
@@ -34,7 +34,7 @@ const about = () => {
 								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
 							/>
 						</div>
-						<div className="col-span-3 flex flex-col items-start justify-start dark:text-light">
+						<div className="col-span-3 flex flex-col md:w-full lg:w-full items-start justify-start dark:text-light">
 							<div>
 								<h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light">
 									About Us
@@ -70,26 +70,26 @@ const about = () => {
 								</p>
 								<div className="flex flex-row justify-between mt-10 dark:text-light">
 									<div className="flex flex-col items-center justify-center">
-										<span className="inline-block text-7xl font-bold">
+										<span className="inline-block text-7xl sm:text-3xl font-bold">
 											10+
 										</span>
-										<h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
+										<h2 className="text-xl font-medium capitalize sm:text-base sm:text-center text-dark/75 dark:text-light/75">
 											projects completed
 										</h2>
 									</div>
 									<div className="flex flex-col items-center justify-center">
-										<span className="inline-block text-7xl font-bold">
+										<span className="inline-block text-7xl sm:text-3xl font-bold">
 											10+
 										</span>
-										<h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
+										<h2 className="text-xl font-medium capitalize sm:text-base sm:text-center text-dark/75 dark:text-light/75">
 											satisfied clients
 										</h2>
 									</div>
 									<div className="flex flex-col items-center justify-center">
-										<span className="inline-block text-7xl font-bold">
+										<span className="inline-block text-7xl sm:text-3xl font-bold">
 											4+
 										</span>
-										<h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
+										<h2 className="text-xl font-medium capitalize sm:text-base sm:text-center text-dark/75 dark:text-light/75">
 											years of experience
 										</h2>
 									</div>
