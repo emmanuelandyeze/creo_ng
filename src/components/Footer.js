@@ -11,11 +11,7 @@ const Footer = () => {
 					Reserved.
 				</span>
 				<div className="flex items-center lg:py-2">
-					Made with{' '}
-					<span className="text-primary text-2xl px-1">
-						&hearts;
-					</span>{' '}
-					by{' '}
+					A subsidiary of{' '}
 					<Link
 						href={'/'}
 						className="underline px-1.5 underline-offset-2"

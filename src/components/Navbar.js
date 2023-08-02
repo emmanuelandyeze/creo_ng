@@ -263,7 +263,16 @@ const Navbar = () => {
 				</motion.div>
 			) : null}
 
-			<div className="absolute left-[50%] top-2 translate-x-[-50%]">
+			<div className="flex-col justify-center items-center hidden lg:flex">
+				<Link
+					href={'/hire'}
+					className="flex items-center sm:mr-0 bg-dark text-light md:p-2 md:px-4 md:text-base dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark mr-0"
+				>
+					Hire Us
+				</Link>
+			</div>
+
+			<div className="absolute left-[50%] sm:left-[45%] top-2 translate-x-[-50%]">
 				<Logo />
 			</div>
 		</header>

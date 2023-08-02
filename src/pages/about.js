@@ -23,7 +23,7 @@ const about = () => {
 						}
 						className="mb-16 !text-6xl lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8"
 					/>
-					<div className="grid w-full grid-cols-6 gap-16 lg:flex lg:flex-col">
+					<div className="grid w-full grid-cols-6 gap-16 lg:flex lg:flex-col sm:justify-center">
 						<div className="col-span-3 relative sm:hidden md:hidden   rounded-2xl border-2 border-solid border-dark dark:border-light bg-light dark:bg-dark p-8">
 							<div className="absolute top-0 -right-3 -z-10 2-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
 							<Image
@@ -34,7 +34,7 @@ const about = () => {
 								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
 							/>
 						</div>
-						<div className="col-span-3 flex flex-col md:w-full lg:w-full items-start justify-start dark:text-light">
+						<div className="col-span-3 flex flex-col md:w-full lg:w-full items-start justify-start sm:justify-center sm:items-center dark:text-light">
 							<div>
 								<h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light">
 									About Us
@@ -94,16 +94,16 @@ const about = () => {
 										</h2>
 									</div>
 								</div>
-								<div className="flex items-center self-start mt-10">
+								<div className="flex sm:mx-auto items-center self-center mt-2 lg:self-center sm:self-center">
 									<Link
 										href={'/hire'}
-										className="flex items-center bg-dark text-light dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+										className="flex items-center bg-dark text-light md:p-2 md:px-4 md:text-base dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark mr-2"
 									>
 										Hire Us
 									</Link>
 									<Link
 										href={'/projects'}
-										className="ml-4 text-lg font-medium capitalize dark:text-light/75 text-dark underline underline-offset-2"
+										className="flex items-center bg-light text-dark md:p-2 md:px-4 md:text-base dark:bg-dark dark:text-light hover:dark:bg-light hover:dark:text-dark hover:dark:border-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-dark hover:text-light border-2 border-solid border-transparent hover:border-light"
 									>
 										View Portfolio
 									</Link>
