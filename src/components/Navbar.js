@@ -211,7 +211,7 @@ const Navbar = () => {
 
 					<nav className="flex items-center justify-center flex-wrap mt-2">
 						<motion.a
-							href={'/'}
+							href={'https://twitter.com/3riveAfrica'}
 							target="_blank"
 							whileHover={{
 								y: -2,
@@ -233,7 +233,9 @@ const Navbar = () => {
 							<GithubIcon />
 						</motion.a>
 						<motion.a
-							href={'/'}
+							href={
+								'https://www.linkedin.com/in/emmanuel-andy-eze-55833b216/'
+							}
 							target="_blank"
 							whileHover={{
 								y: -2,
