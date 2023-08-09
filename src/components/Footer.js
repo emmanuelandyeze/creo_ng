@@ -19,7 +19,9 @@ const Footer = () => {
 						3rive Africa
 					</Link>
 				</div>
-				<Link href={'/'}>Talk to Us</Link>
+				<Link href={'https://wa.me/2349165095973'}>
+					Talk to Us
+				</Link>
 			</Layout>
 		</footer>
 	);
