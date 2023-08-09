@@ -13,7 +13,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Creo NG</title>
+				<title> 3rive Creo</title>
 				<meta
 					name="description"
 					content="Turn Your Ideas Into Reality With Expert Code And Design."

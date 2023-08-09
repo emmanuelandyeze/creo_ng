@@ -9,7 +9,7 @@ const about = () => {
 	return (
 		<>
 			<Head>
-				<title>Creo NG | About Us</title>
+				<title>3rive Creo | About Us</title>
 				<meta
 					name="description"
 					content="Turn Your Ideas Into Reality With Expert Code And Design."
